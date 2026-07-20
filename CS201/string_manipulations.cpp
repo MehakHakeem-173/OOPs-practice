@@ -7,7 +7,7 @@ int main(){
     char s1[] = "Welcome to ";
     char s2[] = "virtual Univercity ";
     char s3[] = "Welcome to pershawar ";
-    char city[] = "peshawar";
+    char city[] = "peshawar ";
     char province[] = "KPK";
 
     //character array to store manipulated string
@@ -25,7 +25,7 @@ int main(){
     cout << " length of s1 = " << strlen(s1) << endl;
 
     //copying string
-    strcpy(s, "hyderabad");
+    strcpy(s, "hyderabad ");
     cout << "\n Nearest city to " << city << "is " << s << endl;
 
     //concatenating strings
